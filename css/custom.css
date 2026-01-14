@@ -1,14 +1,95 @@
 /* DevPort Custom Modern CSS - 2026 Design Refresh */
 
+/* ===== COLOR VARIABLES ===== */
 :root {
+  /* Primary Colors */
   --primary-color: #7ec78a;
   --primary-dark: #62a870;
-  --text-primary: #afbac4;
-  --text-secondary: #737f8a;
+  --primary-light: #a8d9b1;
+  
+  /* Alternative modern accent colors (for future updates) */
+  --accent-teal: #06d6d0;
+  --accent-blue: #3b82f6;
+  
+  /* Text Colors - Dark Mode */
+  --text-primary-dark: #afbac4;
+  --text-secondary-dark: #737f8a;
+  --text-tertiary-dark: #4a5568;
+  
+  /* Text Colors - Light Mode */
+  --text-primary-light: #0f172a;
+  --text-secondary-light: #475569;
+  --text-tertiary-light: #94a3b8;
+  
+  /* Background Colors - Dark Mode */
   --bg-dark: #102f41;
   --bg-darker: #062130;
+  --bg-secondary-dark: #1d2024;
+  --bg-card-dark: rgba(29, 32, 36, 0.8);
+  
+  /* Background Colors - Light Mode */
+  --bg-light: #f8fafc;
+  --bg-lighter: #ffffff;
+  --bg-secondary-light: #f1f5f9;
+  --bg-card-light: rgba(255, 255, 255, 0.98);
+  
+  /* Border Colors */
   --border-light: rgba(236, 239, 241, 0.12);
+  --border-light-mode: rgba(15, 23, 42, 0.12);
+  
+  /* Overlay/Shadow Colors - Dark Mode */
+  --overlay-dark: rgba(10, 15, 20, 0.7);
+  --shadow-dark: rgba(0, 0, 0, 0.25);
+  
+  /* Overlay/Shadow Colors - Light Mode */
+  --overlay-light: rgba(15, 23, 42, 0.35);
+  --shadow-light: rgba(0, 0, 0, 0.08);
+  
+  /* UI Colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+  
+  /* Transitions */
   --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.15s ease-in-out;
+  
+  /* Current Mode - Dark by default */
+  --current-bg: var(--bg-dark);
+  --current-text: var(--text-primary-dark);
+  --current-text-secondary: var(--text-secondary-dark);
+  --current-text-tertiary: var(--text-tertiary-dark);
+  --current-bg-secondary: var(--bg-secondary-dark);
+  --current-border: var(--border-light);
+  --current-overlay: var(--overlay-dark);
+  --current-shadow: var(--shadow-dark);
+}
+
+/* Light mode toggle */
+html[data-theme="light"] {
+  --current-bg: var(--bg-light);
+  --current-text: var(--text-primary-light);
+  --current-text-secondary: var(--text-secondary-light);
+  --current-text-tertiary: var(--text-tertiary-light);
+  --current-bg-secondary: var(--bg-secondary-light);
+  --current-border: var(--border-light-mode);
+  --current-overlay: var(--overlay-light);
+  --current-shadow: var(--shadow-light);
+}
+
+/* Auto dark mode based on system preference */
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) {
+    --current-bg: var(--bg-light);
+    --current-text: var(--text-primary-light);
+    --current-text-secondary: var(--text-secondary-light);
+    --current-text-tertiary: var(--text-tertiary-light);
+    --current-bg-secondary: var(--bg-secondary-light);
+    --current-border: var(--border-light-mode);
+    --current-overlay: var(--overlay-light);
+    --current-shadow: var(--shadow-light);
+  }
 }
 
 /* Typography - Modern Font Stack */
@@ -16,6 +97,9 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.7;
   letter-spacing: 0.3px;
+  background-color: var(--current-bg);
+  color: var(--current-text);
+  transition: background-color var(--transition-smooth), color var(--transition-smooth);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,11 +154,13 @@ code, pre {
 .team-member,
 .feature-box,
 .service-item {
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--current-border);
   border-radius: 12px;
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   transition: all var(--transition-smooth);
+  background-color: var(--current-bg-secondary);
+  color: var(--current-text);
 }
 
 .card:hover,
@@ -128,7 +214,7 @@ section {
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
-  background: rgba(10, 15, 20, 0.70) !important;
+  background: var(--current-overlay) !important;
   z-index: 1 !important;
   pointer-events: none !important;
 }
@@ -156,7 +242,7 @@ section {
 /* Hero paragraph - STRONG visibility */
 .hero-area .block p,
 .hero .block p {
-  color: #e0e8f0 !important;
+  color: #ffffff !important;
   font-size: 18px !important;
   line-height: 1.8 !important;
   margin-bottom: 32px !important;
@@ -186,7 +272,7 @@ section {
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
-  background: rgba(10, 15, 20, 0.72) !important;
+  background: var(--current-overlay) !important;
   z-index: 1 !important;
 }
 
@@ -209,7 +295,7 @@ section {
 
 /* CTA Paragraph */
 .call-to-action p {
-  color: #e0e8f0 !important;
+  color: #ffffff !important;
   font-size: 16px !important;
   line-height: 1.8 !important;
   margin-bottom: 32px !important;
@@ -301,8 +387,10 @@ html {
 /* Form elements */
 input, textarea, select {
   border-radius: 8px;
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--current-border);
   transition: all var(--transition-smooth);
+  background-color: var(--current-bg);
+  color: var(--current-text);
 }
 
 input:focus, textarea:focus, select:focus {
@@ -350,4 +438,308 @@ input:focus, textarea:focus, select:focus {
 button:disabled, input:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+  background: transparent;
+  border: none;
+  color: var(--current-text);
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all var(--transition-smooth);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#theme-toggle:hover {
+  background-color: rgba(126, 199, 138, 0.15);
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+#theme-toggle:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Navigation styling for light/dark mode */
+.navigation {
+  background: var(--current-bg-secondary);
+  border-bottom: 1px solid var(--current-border);
+  transition: background-color var(--transition-smooth), border-color var(--transition-smooth);
+}
+
+.navbar-brand {
+  color: var(--current-text);
+}
+
+.nav-link {
+  color: var(--current-text-secondary);
+  transition: color var(--transition-smooth);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+#select-language {
+  background-color: var(--current-bg);
+  color: var(--current-text);
+  border: 1px solid var(--current-border);
+}
+
+/* ===== MODERN RESPONSIVE BREAKPOINTS (2026) ===== */
+
+/* Extra Large Devices (desktops, 1920px+) */
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1400px;
+  }
+  
+  h1 {
+    font-size: 52px;
+  }
+  
+  .hero-area .block h1 {
+    font-size: 56px !important;
+  }
+}
+
+/* Large Devices (desktops, 1440px-1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+/* Medium-Large Devices (tablets landscape, 1024px-1439px) */
+@media (max-width: 1439px) {
+  .btn {
+    padding: 11px 26px;
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  section {
+    padding: 70px 0;
+  }
+}
+
+/* Medium Devices (tablets, 768px-1023px) */
+@media (max-width: 1023px) {
+  .btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 26px;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  .hero-area .block h1,
+  .hero .block h1 {
+    font-size: 36px !important;
+  }
+  
+  .hero-area .block p,
+  .hero .block p {
+    font-size: 16px !important;
+  }
+  
+  .call-to-action h2 {
+    font-size: 32px !important;
+  }
+}
+
+/* Small Devices (phones landscape, 640px-767px) */
+@media (max-width: 767px) {
+  .btn {
+    padding: 9px 22px;
+    font-size: 13px;
+  }
+  
+  h1 {
+    font-size: 26px;
+  }
+  
+  h2 {
+    font-size: 22px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  .hero, .hero-area {
+    min-height: 70vh;
+  }
+  
+  .hero-area .block h1,
+  .hero .block h1 {
+    font-size: 28px !important;
+    margin-bottom: 16px !important;
+  }
+  
+  .hero-area .block p,
+  .hero .block p {
+    font-size: 14px !important;
+    margin-bottom: 24px !important;
+  }
+  
+  .call-to-action {
+    padding: 60px 0 !important;
+  }
+  
+  .call-to-action h2 {
+    font-size: 24px !important;
+    margin-bottom: 16px !important;
+  }
+  
+  .call-to-action p {
+    font-size: 14px !important;
+  }
+  
+  .call-to-action .btn {
+    padding: 10px 28px !important;
+  }
+}
+
+/* Extra Small Devices (phones, 390px-639px) */
+@media (max-width: 639px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  .hero, .hero-area {
+    min-height: 60vh;
+    padding: 0 !important;
+  }
+  
+  .hero-area .block h1,
+  .hero .block h1 {
+    font-size: 22px !important;
+    margin-bottom: 12px !important;
+  }
+  
+  .hero-area .block p,
+  .hero .block p {
+    font-size: 13px !important;
+    margin-bottom: 20px !important;
+    max-width: 100% !important;
+  }
+  
+  .call-to-action {
+    padding: 50px 0 !important;
+  }
+  
+  .call-to-action h2 {
+    font-size: 20px !important;
+    margin-bottom: 12px !important;
+  }
+  
+  .call-to-action p {
+    font-size: 13px !important;
+    margin-bottom: 24px !important;
+  }
+  
+  .call-to-action .btn {
+    padding: 9px 24px !important;
+  }
+  
+  .feature-item .icon,
+  .about-item .icon,
+  .service-item .icon {
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}
+
+/* Tiny Devices (phones, <390px) */
+@media (max-width: 389px) {
+  body {
+    font-size: 13px;
+  }
+  
+  .btn {
+    padding: 7px 16px;
+    font-size: 11px;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  section {
+    padding: 30px 0;
+  }
+  
+  .hero-area .block h1,
+  .hero .block h1 {
+    font-size: 18px !important;
+  }
+  
+  .call-to-action h2 {
+    font-size: 16px !important;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 0 12px;
+  }
 }
