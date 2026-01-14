@@ -1,8 +1,9 @@
 baseURL: 'https://devport.nl'
 title: DevPort
 theme: meghna-hugo
-paginate: '6'
 summaryLength: '15'
+pagination:
+  pagerSize: 6
 disqusShortname: ''
 disableLanguages: []
 defaultContentLanguage: nl
