@@ -16,6 +16,7 @@ params:
       - link: plugins/slick/slick.css
       - link: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap
       - link: css/custom.css
+      - link: css/animations.css
     js:
       - link: plugins/jquery/jquery.min.js
       - link: plugins/bootstrap/bootstrap.min.js
@@ -25,6 +26,7 @@ params:
       - link: plugins/lazy-load/lozad.min.js
       - link: plugins/google-map/map.js
       - link: js/theme-toggle.js
+      - link: js/scroll-reveal.js
   logo: images/logo.png
   description: DevPort - Een veilige haven voor Software, DevOps en Cloud Engineers
   author: Themefisher

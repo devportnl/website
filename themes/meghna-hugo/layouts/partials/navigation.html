@@ -44,9 +44,13 @@
           {{ end }}
           {{ end }}
         </ul>
+				<!-- Theme Toggle Button -->
+				<button id="theme-toggle" class="btn btn-sm btn-link ml-3" aria-label="Switch to light mode" title="Light Mode">
+					<i class="fas fa-sun"></i>
+				</button>
 				<!-- Language List -->
 				{{- if hugo.IsMultilingual }}
-				<select id="select-language" onchange="location = this.value;">
+				<select id="select-language" onchange="location = this.value;" class="ml-2">
 					{{ $siteLanguages := site.Languages}}
 					{{ $pageLang := .Page.Lang}}
 					{{ range .Page.AllTranslations }}
