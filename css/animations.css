@@ -1,0 +1,415 @@
+/* DevPort Advanced Animations & Micro-interactions - Phase 3 */
+
+/* ===== KEYFRAME ANIMATIONS ===== */
+
+/* Smooth fade-in animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Subtle scale animations */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(126, 199, 138, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(126, 199, 138, 0);
+  }
+}
+
+/* Button ripple effect */
+@keyframes ripple {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+/* Smooth color transitions */
+@keyframes colorPulse {
+  0%, 100% {
+    color: var(--primary-color);
+  }
+  50% {
+    color: var(--accent-teal);
+  }
+}
+
+/* Icon spin */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ===== SECTION ANIMATIONS ===== */
+
+/* Hero section entrance */
+.hero-area .block,
+.hero .block {
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.hero-area .block h1,
+.hero .block h1 {
+  animation: fadeInDown 0.8s ease-out 0.4s both;
+}
+
+.hero-area .block p,
+.hero .block p {
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.hero-area .btn,
+.hero .btn {
+  animation: scaleIn 0.6s ease-out 0.8s both;
+}
+
+/* Card animations */
+.card,
+.team-member,
+.feature-box,
+.service-item,
+.portfolio-item {
+  animation: fadeInUp 0.6s ease-out backwards;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.team-member:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.team-member:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.team-member:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.team-member:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.feature-box:nth-child(1),
+.service-item:nth-child(1) {
+  animation-delay: 0.15s;
+}
+
+.feature-box:nth-child(2),
+.service-item:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.feature-box:nth-child(3),
+.service-item:nth-child(3) {
+  animation-delay: 0.45s;
+}
+
+.feature-box:nth-child(4),
+.service-item:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+/* ===== MICRO-INTERACTIONS ===== */
+
+/* Button interactions */
+.btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.btn:active::before {
+  animation: ripple 0.6s ease-out;
+}
+
+/* Icon hover animations */
+.feature-item .icon i,
+.about-item .icon i,
+.service-item .icon i {
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: inline-block;
+}
+
+.feature-item:hover .icon i,
+.about-item:hover .icon i,
+.service-item:hover .icon i {
+  transform: scale(1.2) rotate(-5deg);
+}
+
+/* Link underline animations */
+a:not(.btn):not(.nav-link) {
+  position: relative;
+  text-decoration: none;
+}
+
+a:not(.btn):not(.nav-link)::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+a:not(.btn):not(.nav-link):hover::after {
+  width: 100%;
+}
+
+/* Navigation link animations */
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:active::after {
+  width: 100%;
+}
+
+/* Form input animations */
+input:focus,
+textarea:focus,
+select:focus {
+  transform: scale(1.01);
+}
+
+/* Smooth transitions for theme toggle */
+#theme-toggle i {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Loading state animation */
+.loading {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Smooth scroll behavior for internal links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* CTA section animation */
+.call-to-action {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.call-to-action h2 {
+  animation: fadeInDown 0.8s ease-out 0.2s both;
+}
+
+/* ===== HOVER STATE ENHANCEMENTS ===== */
+
+/* Team member card hover */
+.team-member {
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.team-member:hover {
+  transform: translateY(-8px);
+}
+
+/* Portfolio item hover */
+.portfolio-item {
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.02);
+}
+
+/* Feature box enhance */
+.feature-box,
+.service-item {
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.feature-box:hover,
+.service-item:hover {
+  transform: translateY(-6px);
+}
+
+/* ===== SCROLL REVEAL ANIMATIONS (Intersection Observer Ready) ===== */
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== DARK MODE ANIMATION ADJUSTMENTS ===== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Reduced animations for light mode toggle */
+html[data-theme="light"] {
+  --animation-duration: 0.3s;
+}
+
+/* ===== RESPONSIVE ANIMATION ADJUSTMENTS ===== */
+
+@media (max-width: 768px) {
+  /* Reduce animations on mobile for better performance */
+  .hero-area .block,
+  .card,
+  .team-member,
+  .feature-box {
+    animation-duration: 0.4s;
+  }
+
+  .feature-item:hover .icon i {
+    transform: scale(1.1) rotate(-5deg);
+  }
+
+  /* Disable complex animations on small devices */
+  .btn::before {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further reduce animations on very small devices */
+  .hero-area .block,
+  .card,
+  .team-member {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Keep essential hover effects */
+  .btn:hover {
+    animation: none;
+  }
+}

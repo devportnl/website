@@ -572,10 +572,19 @@ button:disabled, input:disabled {
   min-height: 44px;
 }
 
+#theme-toggle i {
+  display: inline-block;
+  transition: transform var(--transition-smooth);
+}
+
 #theme-toggle:hover {
   background-color: rgba(126, 199, 138, 0.15);
   color: var(--primary-color);
   transform: scale(1.05);
+}
+
+#theme-toggle:hover i {
+  transform: rotate(20deg);
 }
 
 #theme-toggle:focus {
@@ -586,6 +595,16 @@ button:disabled, input:disabled {
 
 #theme-toggle:active {
   transform: scale(0.95);
+}
+
+/* Ensure btn-link has proper styling */
+.btn-link {
+  color: var(--current-text);
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
 }
 
 /* Navigation styling for light/dark mode */
