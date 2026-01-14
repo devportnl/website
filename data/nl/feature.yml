@@ -8,20 +8,20 @@ feature:
   feature_item :
       # feature item loop
     - title : Software development
-      icon : ti-github # themify icon pack : https://themify.me/themify-icons
+      icon : heroicon-code-bracket # Hero Icons : https://heroicons.com
       content : Wij bieden uitgebreide kennis en ervaring op het gebied van zowel frontend als backend 
         development. Of u nu op zoek bent naar maatwerkoplossingen of hulp bij het ontwikkelen van uw 
         ideeën, wij hebben de expertise om u te helpen.
       
       # feature item loop
     - title : DevOps
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      icon : heroicon-cog-6-tooth # Hero Icons : https://heroicons.com
       content : Wij helpen bij het creëren van geautomatiseerde en geïntegreerde workflows tussen development en 
         operations. Door onze aanpak kunt u uw producten sneller en met minder fouten op de markt brengen.
 
       # feature item loop
     - title : Cloud
-      icon : ti-cloud # themify icon pack : https://themify.me/themify-icons
+      icon : heroicon-cloud # Hero Icons : https://heroicons.com
       content :
         Onze cloudexperts zorgen voor de migratie, het beheer en de optimalisatie van uw cloudomgeving. 
         Of u nu uw huidige infrastructuur wilt verbeteren of uw cloudstrategie vanaf de grond wilt opbouwen,
@@ -29,7 +29,7 @@ feature:
 
       # feature item loop
     - title : Persoonlijke ontwikkeling
-      icon : ti-face-smile # themify icon pack : https://themify.me/themify-icons
+      icon : heroicon-user-group # Hero Icons : https://heroicons.com
       content : Bij DevPort hechten we veel belang aan de ontwikkeling van onze medewerkers. 
         We zorgen voor een omgeving waarin medewerkers zich kunnen blijven ontwikkelen en stimuleren 
         hun persoonlijke en professionele groei.

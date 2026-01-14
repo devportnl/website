@@ -3,17 +3,17 @@ about:
   enable: true
   title: Over Ons
   about_item:
-    - icon: ti-shield
+    - icon: heroicon-shield-check
       title: Betrouwbaarheid
       content: Wij zijn een transparante en eerlijke organisatie die altijd 
         open communiceert met onze klanten en medewerkers. 
         Betrouwbaarheid en veiligheid staan centraal in alles wat wij doen.
-    - icon: ti-light-bulb
+    - icon: heroicon-light-bulb
       title: Innovatie
       content: We streven voortdurend naar nieuwe ideeën en innovatieve
         oplossingen. Door goed te luisteren naar onze klanten en markt,
         helpen we bedrijven zich verder te ontwikkelen.
-    - icon: ti-briefcase
+    - icon: heroicon-briefcase
       title: Professionaliteit
       content: Professionaliteit en kwaliteit zijn voor ons vanzelfsprekend. 
         We zorgen voor een zakelijke benadering in onze communicatie 

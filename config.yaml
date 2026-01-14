@@ -11,11 +11,11 @@ params:
   plugins:
     css:
       - link: plugins/bootstrap/bootstrap.min.css
-      - link: plugins/themify-icons/themify-icons.css
+      - link: https://cdn.jsdelivr.net/npm/heroicons@2.0.18/dist/heroicons.min.css
       - link: plugins/magnific-popup/magnific-popup.css
       - link: plugins/slick/slick.css
-#      - link: >-
-#          https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap
+      - link: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap
+      - link: css/custom.css
     js:
       - link: plugins/jquery/jquery.min.js
       - link: plugins/bootstrap/bootstrap.min.js
@@ -43,7 +43,7 @@ params:
     map_longitude: '-0.1622023'
     map_marker: images/marker.png
   social:
-    - icon: ti-linkedin
+    - icon: heroicon-linked-in
       link: 'https://www.linkedin.com/company/devportnl/'
 Languages:
   nl:
