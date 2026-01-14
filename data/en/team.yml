@@ -19,22 +19,6 @@ team:
       social:
         - icon: ti-linkedin
           link: "https://www.linkedin.com/in/jelle-van-de-haterd-%E2%98%81%EF%B8%8F-09810926/"
-    - name: Kevin Elfering
-      image_webp: images/team/kevin.webp
-      image: images/team/kevin.jpg
-      designation: Software engineer
-      content: ""
-      social:
-        - icon: ti-linkedin
-          link: "https://www.linkedin.com/in/kevin-elfering-58343087/"
-    - name: Harm Akkerman
-      image_webp: images/team/harm.webp
-      image: images/team/harm.jpg
-      designation: DevOps engineer
-      content: ""
-      social:
-        - icon: ti-linkedin
-          link: "https://www.linkedin.com/in/harm-akkerman-62836b238/"
     - name: Lars van der Voorden
       image_webp: images/team/lars.webp
       image: images/team/lars.jpg
@@ -51,11 +35,3 @@ team:
       social:
         - icon: ti-linkedin
           link: "https://www.linkedin.com/in/steven-binda/"
-    - name: Mitchell Kamta
-      image_webp: images/team/mitchell.webp
-      image: images/team/mitchell.jpg
-      designation: DevOps Engineer
-      content: ""
-      social:
-        - icon: ti-linkedin
-          link: "https://www.linkedin.com/in/mitchellkamta/"
