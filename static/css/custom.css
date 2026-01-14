@@ -7,9 +7,11 @@
   --primary-dark: #62a870;
   --primary-light: #a8d9b1;
   
-  /* Alternative modern accent colors (for future updates) */
+  /* Complementary Colors (for accents & highlights) */
   --accent-teal: #06d6d0;
-  --accent-blue: #3b82f6;
+  --accent-teal-dark: #00b8ae;
+  --accent-navy: #1e3a5f;
+  --accent-purple: #a78bfa;
   
   /* Text Colors - Dark Mode */
   --text-primary-dark: #afbac4;
@@ -147,6 +149,37 @@ code, pre {
   background-color: var(--primary-color);
   color: white;
   transform: translateY(-2px);
+}
+
+/* Accent Buttons - Complementary Colors */
+.btn-accent,
+.btn-teal {
+  background-color: var(--accent-teal);
+  border-color: var(--accent-teal);
+  color: white;
+  box-shadow: 0 4px 12px rgba(6, 214, 208, 0.3);
+}
+
+.btn-accent:hover,
+.btn-teal:hover {
+  background-color: var(--accent-teal-dark);
+  border-color: var(--accent-teal-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(6, 214, 208, 0.4);
+}
+
+.btn-navy {
+  background-color: var(--accent-navy);
+  border-color: var(--accent-navy);
+  color: white;
+  box-shadow: 0 4px 12px rgba(30, 58, 95, 0.3);
+}
+
+.btn-navy:hover {
+  background-color: #152a42;
+  border-color: #152a42;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(30, 58, 95, 0.4);
 }
 
 /* Cards - Glassmorphism Effect */
@@ -321,6 +354,26 @@ input:focus {
   outline-offset: 2px;
 }
 
+/* Accent link styling */
+a.accent-teal {
+  color: var(--accent-teal);
+  text-decoration: none;
+  transition: color var(--transition-smooth);
+}
+
+a.accent-teal:hover {
+  color: var(--accent-teal-dark);
+  text-decoration: underline;
+}
+
+a.accent-navy {
+  color: var(--accent-navy);
+}
+
+a.accent-navy:hover {
+  color: #152a42;
+}
+
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
@@ -371,6 +424,30 @@ html {
 .service-item:hover .icon {
   background: rgba(126, 199, 138, 0.2);
   transform: scale(1.1) rotate(-5deg);
+  color: var(--primary-dark);
+}
+
+/* Accent Icon Variants */
+.feature-item .icon.accent-teal {
+  background: rgba(6, 214, 208, 0.1);
+  color: var(--accent-teal);
+}
+
+.feature-item .icon.accent-teal:hover,
+.feature-item:hover .icon.accent-teal {
+  background: rgba(6, 214, 208, 0.2);
+  color: var(--accent-teal-dark);
+}
+
+.feature-item .icon.accent-navy {
+  background: rgba(30, 58, 95, 0.1);
+  color: var(--accent-navy);
+}
+
+.feature-item .icon.accent-navy:hover,
+.feature-item:hover .icon.accent-navy {
+  background: rgba(30, 58, 95, 0.2);
+  color: #152a42;
 }
 
 /* Text selection */
