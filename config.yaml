@@ -24,6 +24,7 @@ params:
       - link: plugins/magnific-popup/jquery.magnific-popup.min.js
       - link: plugins/lazy-load/lozad.min.js
       - link: plugins/google-map/map.js
+      - link: js/theme-toggle.js
   logo: images/logo.png
   description: DevPort - Een veilige haven voor Software, DevOps en Cloud Engineers
   author: Themefisher
