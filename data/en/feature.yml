@@ -3,13 +3,13 @@ feature:
   enable : true
   image : images/about/about-feature.jpg
   image_webp : images/about/about-feature.webp
-  title : We zijn een kennishuis
-  content : Our organization offers various services to help you in your development journey. Here are some of our key services&#58;
+  title : We are a knowledge partner
+  content : "Our organization offers various services to help you in your development journey. Here are some of our key services:"
   feature_item :
     # feature item loop
     - title : Software development
       icon : ti-github # themify icon pack : https://themify.me/themify-icons
-      content : We offer extensive knowledge and experience in both front-end and back-end development.
+      content : We offer extensive knowledge and experience in both frontend and backend development.
         Whether you're looking for custom solutions or help developing your ideas, we have the expertise 
         to assist you.
 
@@ -27,7 +27,7 @@ feature:
         scratch, we have the skills to help.
 
       # feature item loop
-    - title : Persoonlijke ontwikkeling
+    - title : Personal Development
       icon : ti-face-smile # themify icon pack : https://themify.me/themify-icons
       content : At DevPort, we place great importance on the development of our employees.
         We provide an environment in which employees can continue to develop and encourage 

@@ -1,6 +1,6 @@
 ---
 title: "Frontend developer"
-date: 2023-04-03T12:00:00+02:00
+date: 2026-01-14T12:00:00+02:00
 image_webp: images/job/frontend1.webp
 image: images/job/frontend1.jpg
 description : "Vacature Frontend developer @DevPort"
@@ -10,13 +10,13 @@ email: joinus@devport.nl
 
 # Frontend developer
 
-Ben jij een creatieve doener die gepassioneerd is over frontend development? Heb jij een scherp oog voor design en ben jij altijd bezig met het verbeteren van de gebruikerservaring? Dan ben jij de Frontend Developer die wij zoeken!
+Bent u een creatieve doener die gepassioneerd is over frontend development? Heeft u een scherp oog voor design en bent u altijd bezig met het verbeteren van de gebruikerservaring? Dan bent u de Frontend Developer die wij zoeken!
 
-Als Frontend Developer bij DevPort ben jij verantwoordelijk voor het ontwikkelen en onderhouden van verschillende webapplicaties. Jij zorgt ervoor dat de applicaties niet alleen functioneel zijn, maar ook een mooie en gebruiksvriendelijke interface hebben. Je werkt nauw samen met onze designers, developers en klanten om de beste oplossingen te vinden voor de uitdagingen waar we voor staan.
+Als Frontend Developer bij DevPort bent u verantwoordelijk voor het ontwikkelen en onderhouden van verschillende webapplicaties. U zorgt ervoor dat de applicaties niet alleen functioneel zijn, maar ook een mooie en gebruiksvriendelijke interface hebben. U werkt nauw samen met onze designers, developers en klanten om de beste oplossingen te vinden voor de uitdagingen waar we voor staan.
 
-Bij DevPort vinden we het belangrijk dat onze medewerkers zich blijven ontwikkelen en up-to-date blijven met de nieuwste technologieën. We bieden daarom professionele ondersteuning en de mogelijkheid om nieuwe technologieën te leren. Heb je ervaring met React, Angular of Vue? Dan is dat een pré, maar het is geen vereiste. Het belangrijkste is dat je een passie hebt voor frontend development en graag nieuwe dingen wilt leren.
+Bij DevPort vinden we het belangrijk dat onze medewerkers zich blijven ontwikkelen en up-to-date blijven met de nieuwste technologieën. We bieden professionele ondersteuning en de mogelijkheid om nieuwe technologieën te leren. Heeft u ervaring met React, Angular of Vue? Dan is dat een pré, maar het is geen vereiste. Het belangrijkste is dat u een passie hebt voor frontend development en graag nieuwe dingen wilt leren.
 
-Bij DevPort werken we volgens de midlance constructie. Dit betekent dat je als medewerker bij ons in dienst bent, maar werkt op projectbasis bij onze opdrachtgevers. Je krijgt de vrijheid en beloning van het zelfstandig ondernemen, terwijl je toch de zekerheid hebt van een vast dienstverband.
+Bij DevPort werken we volgens de midlance constructie. Dit betekent dat u als medewerker bij ons in dienst bent, maar werkt op projectbasis bij onze opdrachtgevers. U krijgt de vrijheid en beloning van het zelfstandig ondernemen, terwijl u toch de zekerheid hebt van een vast dienstverband.
 
 ## Wat wij zoeken:
 

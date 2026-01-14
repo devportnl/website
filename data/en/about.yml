@@ -3,22 +3,19 @@ about:
   enable: true
   title: About Us
   about_item:
-    - icon: ti-light-bulb
-      title: We're Creative
-      content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
-        libero, perspiciatis eos provident laborum eum dignissimos.
     - icon: ti-shield
-      title: Reliable transparency
-      content: Reliability is one of our core values. 
-        We are a transparent and honest organization that 
+      title: Reliability
+      content: We are a transparent and honest organization that 
         always communicates openly with our clients and employees. 
-        Nothing remains unspoken and we are committed to the safety 
-        and well-being of everyone.
+        Trust and safety are central to everything we do.
+    - icon: ti-light-bulb
+      title: Innovation
+      content: We continuously strive for new ideas and innovative
+        solutions. By listening carefully to our clients and market,
+        we help companies develop further.
     - icon: ti-briefcase
-      title: Professional support
-      content: Professionalism is inherent to us. 
-        We ensure a business-like and serious approach in our communication
-        with clients and employees. 
-        We go above and beyond to satisfy our clients and support 
-        our employees in their development.
+      title: Professionalism
+      content: Professionalism and quality are self-evident to us. 
+        We provide a business-like approach in our communication 
+        and work to the utmost to support our clients and employees.
 

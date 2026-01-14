@@ -1,6 +1,6 @@
 ---
 title: DevOps engineer (Azure/AWS)
-date: 2023-04-03T12:00:00+02:00
+date: 2026-01-14T12:00:00+02:00
 image_webp: images/job/devops1.webp
 image: images/job/devops1.jpg
 description : "Vacature DevOps engineer @DevPort"
@@ -10,13 +10,13 @@ email: joinus@devport.nl
 
 # DevOps engineer (Azure/AWS)
 
-Ben jij een creatieve doener die graag bezig is met het ontwikkelen van applicaties en het opzetten van infrastructuren? Heb je ervaring met DevOps en kennis van Azure/AWS of andere cloud technologieën? En ben je op zoek naar een uitdaging waarbij je de vrijheid hebt van zelfstandig ondernemen en de zekerheid van een vast dienstverband? Dan ben jij de DevOps engineer die wij zoeken!
+Bent u een creatieve doener die graag bezig is met het ontwikkelen van applicaties en het opzetten van infrastructuren? Heeft u ervaring met DevOps en kennis van Azure/AWS of andere cloud technologieën? En bent u op zoek naar een uitdaging waarbij u de vrijheid hebt van zelfstandig ondernemen en de zekerheid van een vast dienstverband? Dan bent u de DevOps engineer die wij zoeken!
 
-Als DevOps engineer bij DevPort ben je verantwoordelijk voor het ontwerpen, implementeren en onderhouden van de cloud infrastructuur voor onze klanten. Je werkt samen met andere teams om de benodigde functionaliteiten te ontwikkelen en de juiste oplossingen te vinden voor technische vraagstukken. Het is belangrijk dat je beschikt over uitstekende communicatieve vaardigheden en een sterk probleemoplossend vermogen.
+Als DevOps engineer bij DevPort bent u verantwoordelijk voor het ontwerpen, implementeren en onderhouden van de cloud infrastructuur voor onze klanten. U werkt samen met andere teams om de benodigde functionaliteiten te ontwikkelen en de juiste oplossingen te vinden voor technische vraagstukken. Het is belangrijk dat u beschikt over uitstekende communicatieve vaardigheden en een sterk probleemoplossend vermogen.
 
-Bij DevPort vinden we het belangrijk dat onze medewerkers zich blijven ontwikkelen en up-to-date blijven met de nieuwste technologieën. We bieden daarom professionele ondersteuning en de mogelijkheid om Azure/AWS certificeringen te halen. Heb je deze certificeringen nog niet, maar ben je wel bereid om deze te halen? Dan moedigen we je aan om te solliciteren!
+Bij DevPort vinden we het belangrijk dat onze medewerkers zich blijven ontwikkelen en up-to-date blijven met de nieuwste technologieën. We bieden professionele ondersteuning en de mogelijkheid om Azure/AWS certificeringen te halen. Hebt u deze certificeringen nog niet, maar bent u wel bereid om deze te halen? Dan moedigen we u aan om te solliciteren!
 
-Bij DevPort werken we volgens de midlance constructie. Dit betekent dat je als medewerker bij ons in dienst bent, maar werkt op projectbasis bij onze opdrachtgevers. Je krijgt de vrijheid en beloning van het zelfstandig ondernemen, terwijl je toch de zekerheid hebt van een vast dienstverband.
+Bij DevPort werken we volgens de midlance constructie. Dit betekent dat u als medewerker bij ons in dienst bent, maar werkt op projectbasis bij onze opdrachtgevers. U krijgt de vrijheid en beloning van het zelfstandig ondernemen, terwijl u toch de zekerheid hebt van een vast dienstverband.
 
 ## Wat wij zoeken:
 

@@ -3,14 +3,13 @@ feature:
   enable : true
   image : images/about/about-feature.jpg
   image_webp : images/about/about-feature.webp
-  title : We zijn een kennishuis
-  content : Onze organisatie biedt diverse diensten aan om u te helpen bij uw ontwikkelingsreis. 
-    Hier zijn enkele van onze belangrijkste services&#58;
+  title : We zijn een kennispartner
+  content : "Onze organisatie biedt diverse diensten aan om u te helpen bij uw ontwikkelingsreis. Hier zijn enkele van onze belangrijkste services:"
   feature_item :
       # feature item loop
     - title : Software development
       icon : ti-github # themify icon pack : https://themify.me/themify-icons
-      content : Wij bieden uitgebreide kennis en ervaring op het gebied van zowel front-end als back-end 
+      content : Wij bieden uitgebreide kennis en ervaring op het gebied van zowel frontend als backend 
         development. Of u nu op zoek bent naar maatwerkoplossingen of hulp bij het ontwikkelen van uw 
         ideeën, wij hebben de expertise om u te helpen.
       
