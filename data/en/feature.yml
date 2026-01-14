@@ -8,27 +8,27 @@ feature:
   feature_item :
     # feature item loop
     - title : Software development
-      icon : heroicon-code-bracket # Hero Icons : https://heroicons.com
+      icon : fa-solid fa-code # Font Awesome : https://fontawesome.com
       content : We offer extensive knowledge and experience in both frontend and backend development.
         Whether you're looking for custom solutions or help developing your ideas, we have the expertise 
         to assist you.
 
       # feature item loop
     - title : DevOps
-      icon : heroicon-cog-6-tooth # Hero Icons : https://heroicons.com
+      icon : fa-solid fa-gears # Font Awesome : https://fontawesome.com
       content : We help create automated and integrated workflows between development and operations.
         With our approach, you can bring your products to market faster and with fewer errors.
 
       # feature item loop
     - title : Cloud
-      icon : heroicon-cloud # Hero Icons : https://heroicons.com
+      icon : fa-solid fa-cloud # Font Awesome : https://fontawesome.com
       content : Our cloud experts provide migration, management, and optimization of your cloud environment.
         Whether you want to improve your current infrastructure or build your cloud strategy from 
         scratch, we have the skills to help.
 
       # feature item loop
     - title : Personal Development
-      icon : heroicon-user-group # Hero Icons : https://heroicons.com
+      icon : fa-solid fa-users # Font Awesome : https://fontawesome.com
       content : At DevPort, we place great importance on the development of our employees.
         We provide an environment in which employees can continue to develop and encourage 
         their personal and professional growth.

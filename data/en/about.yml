@@ -3,17 +3,17 @@ about:
   enable: true
   title: About Us
   about_item:
-    - icon: heroicon-shield-check
+    - icon: fa-solid fa-shield
       title: Reliability
       content: We are a transparent and honest organization that 
         always communicates openly with our clients and employees. 
         Trust and safety are central to everything we do.
-    - icon: heroicon-light-bulb
+    - icon: fa-solid fa-lightbulb
       title: Innovation
       content: We continuously strive for new ideas and innovative
         solutions. By listening carefully to our clients and market,
         we help companies develop further.
-    - icon: heroicon-briefcase
+    - icon: fa-solid fa-briefcase
       title: Professionalism
       content: Professionalism and quality are self-evident to us. 
         We provide a business-like approach in our communication 

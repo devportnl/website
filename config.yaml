@@ -11,7 +11,7 @@ params:
   plugins:
     css:
       - link: plugins/bootstrap/bootstrap.min.css
-      - link: https://cdn.jsdelivr.net/npm/heroicons@2.0.18/dist/heroicons.min.css
+      - link: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
       - link: plugins/magnific-popup/magnific-popup.css
       - link: plugins/slick/slick.css
       - link: https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap
@@ -43,7 +43,7 @@ params:
     map_longitude: '-0.1622023'
     map_marker: images/marker.png
   social:
-    - icon: heroicon-linked-in
+    - icon: fa-brands fa-linkedin
       link: 'https://www.linkedin.com/company/devportnl/'
 Languages:
   nl:
