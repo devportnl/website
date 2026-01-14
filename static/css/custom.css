@@ -116,6 +116,8 @@ section {
   justify-content: center;
   background: linear-gradient(135deg, #102f41 0%, #1d2024 100%);
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero::before,
@@ -126,8 +128,42 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 30% 50%, rgba(126, 199, 138, 0.1) 0%, transparent 50%);
+  /* Enhanced overlay: darker for better text contrast */
+  background: rgba(10, 15, 20, 0.55) linear-gradient(135deg, rgba(16, 47, 65, 0.6) 0%, rgba(29, 32, 36, 0.65) 100%);
   pointer-events: none;
+  z-index: 1;
+}
+
+/* Hero content - ensure it's above overlay */
+.hero .block,
+.hero-area .block {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+/* Hero text - improved visibility */
+.hero h1,
+.hero-area h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  letter-spacing: -1px;
+}
+
+.hero p,
+.hero-area p {
+  color: #e0e8f0;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 32px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.3px;
 }
 
 /* Navigation polish */
