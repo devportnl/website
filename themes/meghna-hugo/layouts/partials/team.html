@@ -24,6 +24,13 @@
             {{"<!-- member photo -->" | safeHTML}}
             <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 
+            {{"<!-- placeholder avatar icon for missing photos -->" | safeHTML}}
+            {{ if (hasPrefix .image "images/team/placeholder") }}
+            <div class="avatar-icon-overlay">
+              <i class="fas fa-user-astronaut"></i>
+            </div>
+            {{ end }}
+
             {{"<!-- member social profile -->" | safeHTML}}
             <div class="mask">
               <ul class="list-inline">
