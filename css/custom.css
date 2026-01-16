@@ -633,6 +633,63 @@ button:disabled, input:disabled {
   border: 1px solid var(--current-border);
 }
 
+/* Hire Section - Background & Styling */
+.hire {
+  position: relative !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed;
+  background-image: url('../images/backgrounds/hire-bg.jpg') !important;
+}
+
+@supports (background-image: url('data:image/webp;base64,')) {
+  .hire {
+    background-image: url('../images/backgrounds/hire-bg.webp') !important;
+  }
+}
+
+.hire:before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background: rgba(16, 47, 65, 0.75) !important;
+  z-index: 1 !important;
+}
+
+.hire .container {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.hire .title h2 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+.hire h3 {
+  color: #ffffff !important;
+}
+
+.hire .lead {
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.hire .service-item {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25) !important;
+}
+
+.hire .service-item:hover {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 12px 40px rgba(126, 199, 138, 0.25) !important;
+}
+
 /* ===== MODERN RESPONSIVE BREAKPOINTS (2026) ===== */
 
 /* Extra Large Devices (desktops, 1920px+) */
