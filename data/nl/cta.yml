@@ -3,9 +3,9 @@ cta:
   enable : true
   image : images/backgrounds/bg-green.jpg
   image_webp : images/backgrounds/bg-green.webp
-  title : Begin uw ontwikkelingsreis vandaag nog
-  content : Neem vandaag nog contact met ons op en ontdek hoe wij u kunnen helpen bij het 
-    ontwikkelen van uw ideeën. Wacht niet langer en laat ons uw partner zijn in uw succesverhaal.
+  title : Begin je groeitraject vandaag nog
+  content : Neem vandaag nog contact met ons op en ontdek hoe we je kunnen helpen bij het 
+    ontwikkelen van je ideeën. Wacht niet langer en laat ons je partner zijn in je succesverhaal.
   button:
     enable : true
     label : Maak een afspraak

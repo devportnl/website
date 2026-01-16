@@ -1,53 +1,49 @@
 id: pricing
 pricing:
-  enable: false
-  title: Our Plans
+  enable: true
+  title: Op zoek naar IT-professionals?
+  content: We detacheren ervaren engineers bij jouw organisatie. Geen langdurige wervingsprocessen, 
+    maar direct toegang tot talent met de juiste skills.
   pricing_table:
-    - name: Free
-      price: $99
-      unit: month
+    - name: DevOps & Platform Engineers
+      price: ""
+      unit: ""
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Kubernetes & Cloud Native expertise
+        - CI/CD pipeline architectuur
+        - Infrastructure as Code (Terraform, Helm)
+        - Azure & AWS ervaring
+        - Direct inzetbaar
+        - Vast contract via DevPort
       button:
-        label: Signup
-        link: "#"
-    - name: Silver
-      price: $149
-      unit: month
+        label: Neem contact op
+        link: "#contact"
+    - name: Cloud Architecten
+      price: ""
+      unit: ""
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Cloud strategy & design
+        - Multi-cloud oplossingen (Azure/AWS)
+        - Security & compliance expertise
+        - Cloudmigraties & transformaties
+        - Senior niveau
+        - Vast contract via DevPort
       button:
-        label: Signup
-        link: "#"
-    - name: Gold
-      price: $199
-      unit: month
+        label: Neem contact op
+        link: "#contact"
+    - name: Security Engineers
+      price: ""
+      unit: ""
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Cloud security architectuur
+        - IAM & compliance (SOC2, ISO27001)
+        - Security monitoring & threat detection
+        - DevSecOps implementatie
+        - Hoge security requirements
+        - Vast contract via DevPort
       button:
-        label: Signup
-        link: "#"
-    - name: Platinum
-      price: $299
-      unit: month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
+        label: Neem contact op
+        link: "#contact"
         - Script Installer
         - 1 GB Storage
         - 10 GB Bandwidth

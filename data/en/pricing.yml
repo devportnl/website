@@ -1,53 +1,49 @@
 id: pricing
 pricing:
-  enable: false
-  title: Our Plans
+  enable: true
+  title: Looking for IT professionals?
+  content: We second experienced engineers to your organization. No lengthy recruitment processes, 
+    but direct access to talent with the right skills.
   pricing_table:
-    - name: Free
-      price: $99
-      unit: month
+    - name: DevOps & Platform Engineers
+      price: ""
+      unit: ""
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Kubernetes & Cloud Native expertise
+        - CI/CD pipeline architecture
+        - Infrastructure as Code (Terraform, Helm)
+        - Azure & AWS experience
+        - Immediately deployable
+        - Permanent contract via DevPort
       button:
-        label: Signup
-        link: "#"
-    - name: Silver
-      price: $149
-      unit: month
+        label: Contact us
+        link: "#contact"
+    - name: Cloud Architects
+      price: ""
+      unit: ""
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Cloud strategy & design
+        - Multi-cloud solutions (Azure/AWS)
+        - Security & compliance expertise
+        - Cloud migrations & transformations
+        - Senior level
+        - Permanent contract via DevPort
       button:
-        label: Signup
-        link: "#"
-    - name: Gold
-      price: $199
-      unit: month
+        label: Contact us
+        link: "#contact"
+    - name: Security Engineers
+      price: ""
+      unit: ""
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Cloud security architecture
+        - IAM & compliance (SOC2, ISO27001)
+        - Security monitoring & threat detection
+        - DevSecOps implementation
+        - High security requirements
+        - Permanent contract via DevPort
       button:
-        label: Signup
-        link: "#"
-    - name: Platinum
-      price: $299
-      unit: month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
+        label: Contact us
+        link: "#contact"
         - Script Installer
         - 1 GB Storage
         - 10 GB Bandwidth

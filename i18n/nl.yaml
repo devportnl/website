@@ -1,16 +1,13 @@
 ---
 blogTitle:
   id: blogTitle
-  translation: Laatste Post
-jobTitle:
-  id: jobTitle
-  translation: Vacatures
+  translation: Laatste Artikel
 readMore:
   id: readMore
   translation: Lees verder
 viewAllPost:
   id: viewAllPost
-  translation: Bekijk alle posts
+  translation: Bekijk alle artikelen
 viewAllJobs:
   id: viewAllJobs
   translation: Bekijk Alle Vacatures
@@ -25,7 +22,7 @@ aboutAuthor:
   translation: Over de schrijver
 authorsPosts:
   id: authorsPosts
-  translation: Author's posts
+  translation: Artikelen van auteur
 all:
   id: all
   translation: Alle

@@ -9,23 +9,23 @@ feature:
       # feature item loop
     - title : Software development
       icon : fa-solid fa-code # Font Awesome : https://fontawesome.com
-      content : Wij bieden uitgebreide kennis en ervaring op het gebied van zowel frontend als backend 
-        development. Of u nu op zoek bent naar maatwerkoplossingen of hulp bij het ontwikkelen van uw 
-        ideeën, wij hebben de expertise om u te helpen.
+      content : We bieden uitgebreide kennis en ervaring op het gebied van zowel frontend als backend 
+        development. Of je nu op zoek bent naar maatwerkoplossingen of hulp bij het ontwikkelen van je 
+        ideeën, we hebben de expertise om je te helpen.
       
       # feature item loop
     - title : DevOps
       icon : fa-solid fa-gears # Font Awesome : https://fontawesome.com
-      content : Wij helpen bij het creëren van geautomatiseerde en geïntegreerde workflows tussen development en 
-        operations. Door onze aanpak kunt u uw producten sneller en met minder fouten op de markt brengen.
+      content : We helpen bij het creëren van geautomatiseerde en geïntegreerde workflows tussen development en 
+        operations. Door onze aanpak kun je producten sneller en met minder fouten op de markt brengen.
 
       # feature item loop
     - title : Cloud
       icon : fa-solid fa-cloud # Font Awesome : https://fontawesome.com
       content :
-        Onze cloudexperts zorgen voor de migratie, het beheer en de optimalisatie van uw cloudomgeving. 
-        Of u nu uw huidige infrastructuur wilt verbeteren of uw cloudstrategie vanaf de grond wilt opbouwen,
-        wij hebben de vaardigheden om u te helpen.
+        Onze cloudexperts zorgen voor de migratie, het beheer en de optimalisatie van je cloudomgeving. 
+        Of je nu je huidige infrastructuur wilt verbeteren of je cloudstrategie vanaf de grond wilt opbouwen,
+        we hebben de vaardigheden om je te helpen.
 
       # feature item loop
     - title : Persoonlijke ontwikkeling
