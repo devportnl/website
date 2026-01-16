@@ -35,3 +35,19 @@ team:
       social:
         - icon: fa-brands fa-linkedin
           link: "https://www.linkedin.com/in/steven-binda/"
+    - name: Gregory Koeiman
+      image_webp: images/team/placeholder.webp
+      image: images/team/placeholder.jpg
+      designation: DevOps Engineer
+      content: ""
+      social:
+        - icon: fa-brands fa-linkedin
+          link: "https://www.linkedin.com/in/baidenconyobomama/"
+    - name: Tobias Peters
+      image_webp: images/team/placeholder.webp
+      image: images/team/placeholder.jpg
+      designation: Cloud, Automation & DevOps Engineer
+      content: ""
+      social:
+        - icon: fa-brands fa-linkedin
+          link: "https://www.linkedin.com/in/tobias-p-4044bb10/"
