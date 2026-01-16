@@ -20,16 +20,14 @@
       {{"<!-- team member -->" | safeHTML}}
       <div class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
         <div class="team-member">
-          <div class="member-photo">
+          <div class="member-photo{{ if (in .image "placeholder") }} is-placeholder{{ end }}">
             {{"<!-- member photo -->" | safeHTML}}
             <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 
-            {{"<!-- placeholder avatar icon for missing photos -->" | safeHTML}}
-            {{ if (in .image "placeholder") }}
+            {{"<!-- avatar icon overlay -->" | safeHTML}}
             <div class="avatar-icon-overlay">
               <i class="fas fa-user-astronaut"></i>
             </div>
-            {{ end }}
 
             {{"<!-- member social profile -->" | safeHTML}}
             <div class="mask">
