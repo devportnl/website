@@ -1,6 +1,6 @@
 id: pricing
 pricing:
-  enable: true
+  enable: false
   title: Looking for IT professionals?
   content: We second experienced engineers to your organization. No lengthy recruitment processes, 
     but direct access to talent with the right skills.

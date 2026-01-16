@@ -1,6 +1,6 @@
 id: pricing
 pricing:
-  enable: true
+  enable: false
   title: Op zoek naar IT-professionals?
   content: We detacheren ervaren engineers bij jouw organisatie. Geen langdurige wervingsprocessen, 
     maar direct toegang tot talent met de juiste skills.

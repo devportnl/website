@@ -1,0 +1,23 @@
+id: hire
+hire:
+  enable: true
+  title: Voor Bedrijven
+  subtitle: Op zoek naar IT-professionals?
+  content: We detacheren ervaren engineers bij je organisatie. Geen langdurige wervingsprocessen, maar direct toegang tot talent met de juiste skills en een vast contract bij DevPort.
+  hire_item:
+    - icon: ti-server
+      title: DevOps & Platform Engineers
+      content: Kubernetes & Cloud Native expertise, CI/CD pipelines, Infrastructure as Code (Terraform, Helm), Azure & AWS ervaring. Direct inzetbaar met diepgaande kennis van moderne platform architectuur.
+      
+    - icon: ti-cloud
+      title: Cloud Architecten
+      content: Cloud strategy & design, multi-cloud oplossingen (Azure/AWS), security & compliance expertise, cloudmigraties & transformaties. Senior niveau professionals met bewezen track record.
+      
+    - icon: ti-lock
+      title: Security Engineers
+      content: Cloud security architectuur, IAM & compliance (SOC2, ISO27001), security monitoring & threat detection, DevSecOps implementatie. Specialisten voor organisaties met hoge security requirements.
+      
+  button:
+    enable: true
+    label: Neem contact op
+    link: "#contact"

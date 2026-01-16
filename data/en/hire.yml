@@ -1,0 +1,23 @@
+id: hire
+hire:
+  enable: true
+  title: For Companies
+  subtitle: Looking for IT professionals?
+  content: We second experienced engineers to your organization. No lengthy recruitment processes, but direct access to talent with the right skills and a permanent contract with DevPort.
+  hire_item:
+    - icon: ti-server
+      title: DevOps & Platform Engineers
+      content: Kubernetes & Cloud Native expertise, CI/CD pipelines, Infrastructure as Code (Terraform, Helm), Azure & AWS experience. Immediately deployable with in-depth knowledge of modern platform architecture.
+      
+    - icon: ti-cloud
+      title: Cloud Architects
+      content: Cloud strategy & design, multi-cloud solutions (Azure/AWS), security & compliance expertise, cloud migrations & transformations. Senior level professionals with proven track record.
+      
+    - icon: ti-lock
+      title: Security Engineers
+      content: Cloud security architecture, IAM & compliance (SOC2, ISO27001), security monitoring & threat detection, DevSecOps implementation. Specialists for organizations with high security requirements.
+      
+  button:
+    enable: true
+    label: Contact us
+    link: "#contact"

@@ -1,0 +1,56 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.hire.hire.enable }}
+{{ with $data.hire.hire }}
+{{"<!-- Start Hire section -->" | safeHTML}}
+<section id="hire" class="hire section bg-gray">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      {{"<!-- section title -->" | safeHTML}}
+      <div class="col-lg-12">
+        <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+          <h2>{{ with .title }}{{ . | safeHTML }}{{ end }}</h2>
+          <div class="border-meghna"></div>
+        </div>
+      </div>
+      {{"<!-- /section title -->" | safeHTML}}
+
+      {{"<!-- section subtitle & content -->" | safeHTML}}
+      <div class="col-lg-10 text-center mb-5">
+        {{ with .subtitle }}
+        <h3 class="mb-4">{{ . }}</h3>
+        {{ end }}
+        {{ with .content }}
+        <p class="lead">{{ . | safeHTML }}</p>
+        {{ end }}
+      </div>
+
+      {{"<!-- hire items -->" | safeHTML}}
+      {{ range .hire_item }}
+      <div class="col-lg-4 col-md-6 col-12 mb-4 wow fadeInUp" data-wow-duration="500ms">
+        <div class="service-item text-center h-100 p-4 bg-white rounded">
+          <div class="service-icon mb-4">
+            <i class="{{ .icon }} icon-lg"></i>
+          </div>
+          <h4 class="mb-3">{{ .title }}</h4>
+          <p>{{ .content | safeHTML }}</p>
+        </div>
+      </div>
+      {{ end }}
+
+      {{"<!-- CTA button -->" | safeHTML}}
+      {{ with .button }}
+      {{ if .enable }}
+      <div class="col-12 text-center mt-4">
+        <a class="btn btn-main" href="{{ .link | safeURL }}">{{ .label }}</a>
+      </div>
+      {{ end }}
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+{{"<!-- /hire -->" | safeHTML}}
+{{ end }}
+{{ end }}
