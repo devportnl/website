@@ -3,7 +3,7 @@ hire:
   enable: true
   title: Voor Bedrijven
   subtitle: Op zoek naar IT-professionals?
-  content: We detacheren ervaren engineers bij je organisatie. Geen langdurige wervingsprocessen, maar direct toegang tot talent met de juiste skills en een vast contract bij DevPort.
+  content: Wij bieden uw organisatie direct toegang tot gespecialiseerde IT-engineers. Geen langdurige wervingsprocessen, maar bewezen expertise met de juiste skills en een vast contract bij DevPort.
   hire_item:
     - icon: ti-server
       title: DevOps & Platform Engineers

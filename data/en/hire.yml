@@ -3,7 +3,7 @@ hire:
   enable: true
   title: For Companies
   subtitle: Looking for IT professionals?
-  content: We second experienced engineers to your organization. No lengthy recruitment processes, but direct access to talent with the right skills and a permanent contract with DevPort.
+  content: We provide your organization with direct access to specialized IT engineers. No lengthy recruitment processes, but proven expertise with the right skills and a permanent contract with DevPort.
   hire_item:
     - icon: ti-server
       title: DevOps & Platform Engineers
