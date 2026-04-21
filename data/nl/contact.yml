@@ -7,7 +7,9 @@ contact:
     gerust contact met ons op via onderstaande gegevens.
   contact_list:
     - icon: ti-location-pin
-      info: "Postadres: Willem Hogenhoeklaan 4, 3201 PE Spijkenisse"
+      info: "Postadres: Willem Hogenhoeklaan 4, 3201 MG Spijkenisse"
+    - icon: ti-location-pin
+      info: "Bezoekadres: Puntegaalstraat 85, 3024 EB Rotterdam"
     - icon: ti-location-pin
       info: Wij komen naar u toe door heel Nederland heen!
     - icon: ti-pencil-alt
