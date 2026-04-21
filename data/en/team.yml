@@ -35,14 +35,6 @@ team:
       social:
         - icon: fa-brands fa-linkedin
           link: "https://www.linkedin.com/in/steven-binda/"
-    - name: Gregory Craane
-      image_webp: images/team/placeholder.webp
-      image: images/team/placeholder.jpg
-      designation: DevOps Engineer
-      content: ""
-      social:
-        - icon: fa-brands fa-linkedin
-          link: "https://www.linkedin.com/in/baidenconyobomama/"
     - name: Tobias Peters
       image_webp: images/team/tobias.webp
       image: images/team/tobias.jpg
@@ -51,6 +43,14 @@ team:
       social:
         - icon: fa-brands fa-linkedin
           link: "https://www.linkedin.com/in/tobias-p-4044bb10/"
+    - name: Gregory Craane
+      image_webp: images/team/placeholder.webp
+      image: images/team/placeholder.jpg
+      designation: DevOps Engineer
+      content: ""
+      social:
+        - icon: fa-brands fa-linkedin
+          link: "https://www.linkedin.com/in/baidenconyobomama/"
     - name: Olaf Griffioen
       image_webp: images/team/olaf.webp
       image: images/team/olaf.jpg

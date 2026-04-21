@@ -35,7 +35,15 @@ team:
       social:
         - icon: fa-brands fa-linkedin
           link: "https://www.linkedin.com/in/steven-binda/"
-    - name: Gregory Koeiman
+    - name: Tobias Peters
+      image_webp: images/team/tobias.webp
+      image: images/team/tobias.jpg
+      designation: Cloud, Automation & DevOps Engineer
+      content: ""
+      social:
+        - icon: fa-brands fa-linkedin
+          link: "https://www.linkedin.com/in/tobias-p-4044bb10/"
+    - name: Gregory Craane
       image_webp: images/team/placeholder.webp
       image: images/team/placeholder.jpg
       designation: DevOps Engineer
@@ -43,11 +51,11 @@ team:
       social:
         - icon: fa-brands fa-linkedin
           link: "https://www.linkedin.com/in/baidenconyobomama/"
-    - name: Tobias Peters
-      image_webp: images/team/placeholder.webp
-      image: images/team/placeholder.jpg
-      designation: Cloud, Automation & DevOps Engineer
+    - name: Olaf Griffioen
+      image_webp: images/team/olaf.webp
+      image: images/team/olaf.jpg
+      designation: Kubestronaut & DevOps Engineer
       content: ""
       social:
         - icon: fa-brands fa-linkedin
-          link: "https://www.linkedin.com/in/tobias-p-4044bb10/"
+          link: "https://www.linkedin.com/in/olaf-griffioen-736a6927/""
